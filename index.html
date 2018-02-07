@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="icon" href="img/letter-t.svg">
-    </head>
+
     <style>
 
         body{
@@ -15,9 +15,7 @@
             background-attachment: fixed;
 
         }
-        body .container-fluid{
 
-        }
 
         h2{
             padding: 3%;
@@ -88,20 +86,24 @@
 
 
     </style>
+    </head>
+
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50" >
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded bg-light fixed-top border">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#begin"><img src="svg/bolt.svg">Home</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#interests">Interests</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link " href="#path">Carreer path</a>
+                <a class="nav-link " href="#path">Carreer path</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#proyects">Proyects</a>
@@ -122,6 +124,8 @@
         </ul>
     </div>
 </nav>
+
+
 <div class="container-fluid">
     <div class="container-fluid text-center jumbotron align-text-bottom" id="begin">
         <br/><br/>
@@ -332,6 +336,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    "use strict";
+    $("#begin").hide();
+    $("#begin").fadeIn(2000);
+</script>
 
 </body>
 </html> 
