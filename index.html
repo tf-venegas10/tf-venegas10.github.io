@@ -8,8 +8,14 @@
     <link rel="icon" href="img/letter-t.svg">
 
     <style>
+        .allDivs{
+            width: 100%;
+            padding:0px;
+            margin: 0px;
+        }
 
         body{
+            margin: 0px;
             padding:0px;
             background-color: black;
             background-clip:content-box;
@@ -26,16 +32,14 @@
         h5{
             padding: 1%;
         }
-        a{
-            color:black;
-        }
+
 
         img{
             height: 100%;
         }
 
         footer{
-            background-color: rgba(255,255,255,0.8);
+            background-color: rgba(255,255,255,1);
             padding:0px;
             font-size:50%;
 
@@ -45,9 +49,10 @@
             margin: 0px;
         }
 
-        .jumbotron{
-
-            margin:1px;
+        .jumbo{
+            display:block;
+            width: 100%;
+            margin: 0px;
             padding:4%;
 
         }
@@ -57,10 +62,16 @@
         }
         #begin{
             padding: 9%;
-            background-color:rgba(0,128,255,0.8);
+            background-color:rgba(30,50,80,0.98);
+            color:white;
+
+        }
+
+        #begin a{
+            color: white;
         }
         #interests, #proyects, #hobbies, #achievements{
-            background-color:rgba(255,255,255,0.8);
+            background-color:rgba(255,255,255,1);
         }
 
 
@@ -129,8 +140,8 @@
 </nav>
 
 
-<div class="container-fluid">
-    <div class="container-fluid text-center jumbotron align-text-bottom" id="begin">
+<div class="container-fluid allDivs">
+    <div class="container-fluid text-center jumbo align-text-bottom" id="begin">
         <br/><br/>
         <h1>Tomas F. Venegas Bernal</h1>
         <img src="img/code.png">
@@ -148,7 +159,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center jumbotron" id="interests">
+    <div class="container-fluid text-center jumbo" id="interests">
         <h2>Key interests</h2>
         <div class="row">
             <div class="interest col-sm-4">
@@ -208,21 +219,21 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center jumbotron" id="path">
+    <div class="container-fluid text-center jumbo" id="path">
         <h2>Career path</h2>
     </div>
-    <div class="container-fluid text-center jumbotron" id="proyects">
+    <div class="container-fluid text-center jumbo" id="proyects">
         <h2>My proyects</h2>
 
     </div>
-    <div class="container-fluid text-center jumbotron" id="strengths">
+    <div class="container-fluid text-center jumbo" id="strengths">
         <h2>Strengths</h2>
     </div>
-    <div class="container-fluid text-center jumbotron" id="achievements">
+    <div class="container-fluid text-center jumbo" id="achievements">
         <h2>Achievements</h2>
 
     </div>
-    <div class="container-fluid text-center jumbotron   " id="lenguages">
+    <div class="container-fluid text-center jumbo" id="lenguages">
         <h2>My favorite programming languages</h2>
         <p>Rated from 1 to 3 stars</p>
         <div class="row">
@@ -258,7 +269,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center jumbotron" id="hobbies">
+    <div class="container-fluid text-center jumbo" id="hobbies">
         <h2>Hobbies</h2>
         <div class="row">
             <div class="interest col-sm-3">
