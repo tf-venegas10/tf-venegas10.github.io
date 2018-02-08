@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="icon" href="img/letter-t.svg">
-
+    <link rel="stylesheet" href="timeline.css"/>
     <style>
         .allDivs{
             width: 100%;
@@ -75,6 +75,7 @@
         }
         #interests, #proyects, #hobbies, #achievements{
             background-color:rgba(255,255,255,1);
+            color: black;
         }
 
 
@@ -148,6 +149,7 @@
       <div class="container-fluid text-center jumbo align-text-bottom" id="begin">
         <br/><br/>
         <h1>Tomas F. Venegas Bernal</h1>
+          <h2>Systems and Computing Engineering</h2>
         <img src="img/code.png">
         <div class="contactInfo text-center ">
             <p>Contact Information:</p>
@@ -225,8 +227,72 @@
         </div>
     </div>
     <div class="container-fluid text-center jumbo" id="path">
-        <h2>Career path</h2>
-    </div>
+        
+            <div class="page-header">
+                <h1 id="timeline">Career path</h1>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2013</h4>
+                            <h4 class="timeline-title">High School Graduation</h4>
+                            <small class="text-muted"><i class="glyphicon glyphicon-time"></i> Cali, Colombia</small>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Graduated from the "Paul Valery French school" at Cali, Colombia.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2013-2015</h4>
+                            <h4 class="timeline-title">Preparatory Classes for engineering school. </h4>
+                            <small class="text-muted"><i class="glyphicon glyphicon-time"></i> Toulouse, France</small>
+                        </div>
+                        <div class="timeline-body">
+                            <p>"Classes préparatoires aux grandes écoles." In france after high school, if you want to become an engineer/researcher in
+                            the best schools you have to do 2 years (sometimes 3) of preparatory classes.</p>
+                            <p>Special emphasis in mathematics, physics and computer science for me. Basically this was getting intensive courses in
+                            these subjects to the point of getting one year away from the licence in physics or mathematics.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline">
+                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2015-2016</h4>
+                            <h4 class="timeline-title">CentraleSupelec </h4>
+                            <small class="text-muted"><i class="glyphicon glyphicon-time"></i> Gif-sur-Yvette, France (outside of Paris).</small>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Did the first year of the engineering degree at CentralSupelec. I decided to leave because the methodology, emphasis and
+                                the overall level of the school wasn't what I was looking for.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2016-NOW</h4>
+                            <h4 class="timeline-title">University of Los Andes </h4>
+                            <small class="text-muted"><i class="glyphicon glyphicon-time"></i> Bogotá, Colombia.</small>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Systems and Computing Engineering.</p>
+                            <p>Worked as an assisting teacher on the course "Algorithms and Data Structures".</p>
+                            <p>Worked as an assisting teacher on the course "Design and analysis of algorithms".</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     <div class="container-fluid text-center jumbo" id="proyects">
         <h2>My proyects</h2>
 
@@ -355,7 +421,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+<script src="timeline.js"></script>
 
 
 <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
