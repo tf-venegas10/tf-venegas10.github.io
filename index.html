@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="icon" href="img/letter-t.svg">
-    <link rel="stylesheet" href="timeline.css"/>
+    <link rel="stylesheet" href="css/timeline.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <style>
         .allDivs{
             width: 100%;
@@ -149,7 +150,7 @@
       <div class="container-fluid text-center jumbo align-text-bottom" id="begin">
         <br/><br/>
         <h1>Tomas F. Venegas Bernal</h1>
-          <h2>Systems and Computing Engineering</h2>
+          <h2 class="wow pulse">Systems and Computing Engineering</h2>
         <img src="img/code.png">
         <div class="contactInfo text-center ">
             <p>Contact Information:</p>
@@ -202,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="interest col-sm-4">
+            <div class="interest col-sm-4 wow lightSpeedIn">
                 <div class="row">
 
                     <img src="img/AI.png" class= "col-sm-6 icon" alt="A.I."/>
@@ -227,12 +228,12 @@
         </div>
     </div>
     <div class="container-fluid text-center jumbo" id="path">
-        
+
             <div class="page-header">
                 <h1 id="timeline">Career path</h1>
             </div>
             <ul class="timeline">
-                <li>
+                <li class="wow bounceInRight">
                     <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -245,7 +246,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="timeline-inverted">
+                <li class="timeline-inverted wow bounceInLeft">
                     <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -261,7 +262,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="timeline">
+                <li class="timeline wow bounceInRight">
                     <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -276,7 +277,7 @@
                     </div>
                 </li>
 
-                <li class="timeline-inverted">
+                <li class="timeline-inverted wow bounceInLeft">
                     <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -308,7 +309,7 @@
         <h2>My favorite programming languages</h2>
         <p>Rated from 1 to 3 stars</p>
         <div class="row">
-            <div class="leng col-sm-6 lenguage">
+            <div class="leng col-sm-6 lenguage wow fadeIn">
                 <div class="badge badge-warning"><img src="svg/star.svg"><img src="svg/star.svg"><img src="svg/star.svg"></div>
                 <div class="row">
                     <img class="col-sm-4" src="img/java.png" class="icon" alt="java"/>
@@ -316,7 +317,7 @@
                 </div>
 
             </div>
-            <div class="leng col-sm-6 lenguage">
+            <div class="leng col-sm-6 lenguage wow fadeIn">
                 <div class="badge badge-warning"><img src="svg/star.svg"><img src="svg/star.svg"></div>
                 <div class="row">
                     <img class="col-sm-4" src="img/js.png" class="icon" alt="JavaScript"/>
@@ -324,14 +325,14 @@
 
                 </div>
             </div>
-            <div class="leng col-sm-6 lenguage">
+            <div class="leng col-sm-6 lenguage wow fadeIn">
                 <div class="badge badge-warning"><img src="svg/star.svg"></div>
                 <div class="row">
                     <img class="col-sm-4" src="img/php.png" class="icon" alt="php"/>
                     <p class="col-sm-4"> Php</p>
                 </div>
             </div>
-            <div class="leng col-sm-6 lenguage">
+            <div class="leng col-sm-6 lenguage wow fadeIn">
                 <div class="badge badge-warning "><img src="svg/star.svg"><img src="svg/star.svg"><img src="svg/star.svg"></div>
                 <div class="row">
                     <img class="col-sm-4" src="img/python.png" class="icon" alt="Python"/>
@@ -343,7 +344,7 @@
     <div class="container-fluid text-center jumbo" id="hobbies">
         <h2>Hobbies</h2>
         <div class="row">
-            <div class="interest col-sm-3">
+            <div class="interest col-sm-3 wow flipInY">
                 <div class="row">
 
                     <img src="img/climbing.png" class= "col-sm-6 icon" alt="climbing"/>
@@ -353,7 +354,7 @@
                     </div>
                 </div>
             </div>
-            <div class="interest col-sm-3">
+            <div class="interest col-sm-3 wow flipInY">
                 <div class="row">
 
                     <img src="img/hiking.png" class= "col-sm-6 icon" alt="hiking"/>
@@ -364,7 +365,7 @@
                     </div>
                 </div>
             </div>
-            <div class="interest col-sm-3">
+            <div class="interest col-sm-3 wow flipInY">
                 <div class="row">
 
                     <img src="img/diving.png" class= "col-sm-6 icon" alt="scuba diving"/>
@@ -374,7 +375,7 @@
                     </div>
                 </div>
             </div>
-            <div class="interest col-sm-3">
+            <div class="interest col-sm-3 wow flipInY">
                 <div class="row">
 
                     <img src="img/computer.png" class= "col-sm-6 icon" alt="computer"/>
@@ -421,7 +422,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="timeline.js"></script>
 
 
 <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
@@ -431,11 +431,8 @@
     }
 </style>
 
-<script>
-    "use strict";
-    $("#begin").hide();
-    $("#begin").fadeIn(1000);
-</script>
+<script src="js/script.js"></script>
+<script src="js/wow.min.js"></script>
 
 </body>
 </html> 
