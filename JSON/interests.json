@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "WebDevelopment",
+    "img" : "/img/mugDev.png",
+    "alt": "mug"
+  },
+  {
+    "nombre": "Software Architecture",
+    "img" : "/img/architect.png",
+    "alt": "architect"
+  },
+  {
+    "nombre": "Artificial Intelligence",
+    "img" : "/img/AI.png",
+    "alt": "brain"
+  },
+  {
+    "nombre": "Quantum Physics",
+    "img" : "/img/atom.png",
+    "alt": "atom"
+  }
+]

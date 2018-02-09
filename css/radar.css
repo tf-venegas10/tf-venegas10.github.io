@@ -1,0 +1,9 @@
+#myChart {
+    height:100%;
+    width:100%;
+    min-height:250px;
+    margin:2% 0%;
+}
+.zc-ref {
+    display:none;
+}

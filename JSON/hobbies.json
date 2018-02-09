@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Climbing",
+    "img" : "img/climbing.jpg",
+    "alt": "climber"
+  },
+  {
+  "nombre": "Hiking",
+  "img" : "img/treking.jpg",
+    "alt":"hiker"
+  },
+  {
+  "nombre": "Scuba Diving",
+  "img" : "img/diver.jpg",
+    "alt": "diver"
+ },
+  {
+    "nombre": "Programming Competitions",
+    "img" : "img/computer.jpg",
+    "alt": "computer"
+  }
+]
