@@ -42,7 +42,6 @@ function callBackHobbies(data) {
 
 
 function callBackInterests(data) {
-    console.log("read interests");
     var interests = $(".interestsRow > div:nth-child(2)");
     data.forEach(function (d) {
 
@@ -63,7 +62,15 @@ function callBackInterests(data) {
         interests.append(interest);
     });
 }
-console.log("holaaa");
+
 $.getJSON("JSON/hobbies.json", callBackHobbies);
 $.getJSON("JSON/interests.json", callBackInterests);
-console.log("after");
+
+function closeMenu() {
+    $(".nav-link").on("click", function () {
+        console.log("entereddd");
+        $(".navbar-toggler").click();
+        closeMenu();
+    });
+}
+closeMenu();
