@@ -43,7 +43,7 @@ var myConfig = {
     },
     series : [
         {
-            values : [3, 1,3, 3, 1 , 3, 1,3,1 ],
+            values : [3, 1,3, 3, 1 , 3, 2,3,2 ],
             text:'farm'
         }
     ]
