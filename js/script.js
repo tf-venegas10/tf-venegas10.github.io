@@ -1,12 +1,10 @@
-/*global $*/
-/*global console*/
-/*global WOW */
+/*global $ document console WOW*/
+
 "use strict";
 
 
 //Add wow animations
-$(document).ready(function() {
-
+$(document).ready(function () {
 
     new WOW().init();
 
@@ -25,11 +23,11 @@ function callBackHobbies(data) {
         var title = $("<h5 class='col-sm-6'>")
             .text(d.nombre);
         var hobbie = $("<div class='interest col-sm-3 wow flipInY'>")
-           .append($("<div class='row'>")
+            .append($("<div class='row'>")
                 .append("<div class='col-sm-3'>")
                 .append(foto)
                 .append("<div class='col-sm-3'>"))
-           .append($("<div class='row'>")
+            .append($("<div class='row'>")
                 .append("<div class='col-sm-3'>")
                 .append(title)
                 .append("<div class='col-sm-3'>"));
@@ -67,15 +65,13 @@ function callbackProjects(data) {
     var items = 0;
     data.forEach(function(d){
         var pics = $("<div class='row'>");
-        console.log(d.pictures);
         d.pictures.forEach(
             function (p) {
                 pics.append($("<img class='col-sm-6'>")
-                        .attr("src", p.src)
-                        .attr("alt",p.alt));
+                    .attr("src", p.src)
+                    .attr("alt",p.alt));
             }
         );
-        console.log(pics);
         var modal=$("<div class=\"modal fade\" >")
             .attr("id",d.name)
             .append($("<div class=\"modal-dialog modal-lg\" >")
@@ -124,7 +120,7 @@ function callbackProjects(data) {
                 .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
                     .attr("data-target", "#" + d.name)
                     .text("Learn More")));
-        items+=1;
+        items += 1;
     });
 }
 
@@ -134,7 +130,6 @@ $.getJSON("JSON/projects.json", callbackProjects);
 
 function closeMenu() {
     $(".nav-link").on("click", function () {
-        console.log("entereddd");
         $(".navbar-toggler").click();
         closeMenu();
     });
