@@ -1,7 +1,6 @@
-/* global $*/
-/* global console*/
-/* global WOW */
-
+/*global $*/
+/*global console*/
+/*global WOW */
 "use strict";
 
 
@@ -63,8 +62,75 @@ function callBackInterests(data) {
     });
 }
 
+function callbackProjects(data) {
+    /* global $*/
+    var items = 0;
+    data.forEach(function(d){
+        var pics = $("<div class='row'>");
+        console.log(d.pictures);
+        d.pictures.forEach(
+            function (p) {
+                pics.append($("<img class='col-sm-6'>")
+                        .attr("src", p.src)
+                        .attr("alt",p.alt));
+            }
+        );
+        console.log(pics);
+        var modal=$("<div class=\"modal fade\" >")
+            .attr("id",d.name)
+            .append($("<div class=\"modal-dialog modal-lg\" >")
+                .append($("<div class=\"modal-content\">")
+                    .append($("<div class=\"modal-header\">")
+                        .append($("<h4 class=\"modal-title\">")
+                            .text(d.name))
+                        .append($(" <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>")))
+                    .append($("<div class=\"modal-body\">")
+                        .append($("<ul  class=\"list-group\">")
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Team members: " + d.teamMembers))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Project emphasis: " + d.emphasis))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Architecture: " + d.architecture))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Duration: " + d.duration))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Context: " + d.context))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Made on: " + d.year))
+                            .append($("<li  class=\"list-group-item\">")
+                                .text("Link: ")
+                                .append($("<a target=\"_blank\">")
+                                    .attr("href",d.link)
+                                    .text("external link"))))
+                        .append(pics))
+                    .append($("<div class=\"modal-footer\">")
+                        .append($("<button type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\">")
+                            .text("Close")))));
+        $("body").append(modal);
+        $(".carousel-indicators").append($("<li data-target='#projectsCarousel' data-slide-to='" + items + "' >"));
+        //Adding items to carousel
+        $(".carousel-inner")
+            .append($("<div class='carousel-item " + (items === 0? "active" : "") + "'>")
+
+                .append($("<img>")
+                    .attr("src", d.iconSrc)
+                    .attr("alt", d.iconAlt))
+                .append($("<div class=\"carousel-caption\">")
+                    .append($("<h3>")
+                        .text(d.name))
+                    .append($("<p>"))
+                    .text(d.smallDescription))
+                .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
+                    .attr("data-target", "#" + d.name)
+                    .text("Learn More")));
+        items+=1;
+    });
+}
+
 $.getJSON("JSON/hobbies.json", callBackHobbies);
 $.getJSON("JSON/interests.json", callBackInterests);
+$.getJSON("JSON/projects.json", callbackProjects);
 
 function closeMenu() {
     $(".nav-link").on("click", function () {

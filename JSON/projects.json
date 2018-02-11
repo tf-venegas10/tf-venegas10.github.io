@@ -1,0 +1,66 @@
+[
+  {
+    "name":"Colmines",
+    "architecture":"Complex architectural design for every component. The overall project works like a pipeline with redundancy. ",
+    "smallDescription":"IoT Architectural design plus development project. With consideration of non-functional requirements and integration of different software and hardware. ",
+    "iconSrc":"/img/miners.png",
+    "iconAlt":"Miners hat",
+    "link":"https://github.com/ISIS2503/Grupo6",
+    "year":2017,
+    "teamMembers":5,
+    "context":"Software architecture (undergraduate class).",
+    "emphasis":"Applying architectural techniques to satisfy quality attributes like security, performance, escalability, modifiability, interoperability. Integration of different components going from sensors to web servers.",
+    "pictures":[
+      {"src":"/img/colmines1.png", "alt":"dashboard1"},{"src":"/img/colmines2.png", "alt":"dashboard2"}
+    ],
+    "duration": "4 months"
+  },
+  {
+    "name":"Click",
+    "architecture":"JAX-RX+JEE+Angular+Boostrap",
+    "smallDescription":"Back and Front end development of a simple hiking web page using JAX-RX",
+    "iconSrc":"/img/paseos.jpg",
+    "iconAlt":"Organized trips",
+    "link":"https://github.com/Uniandes-ISIS2603-backup/201710-paseos_01/wiki",
+    "year":2017,
+    "teamMembers":5,
+    "context":"Software development in teams (undergraduate class)",
+    "emphasis":"Methodology for efficient team work. Discovering web technologies.",
+    "pictures":[
+
+    ],
+    "duration": "4 months"
+  },
+  {
+    "name":"Inloud",
+    "architecture":"Android front + JAX-RS back.",
+    "smallDescription":"Android front-end for a digital invoice application. BackEnd initial schema.",
+    "iconSrc":"/img/inloud2.png",
+    "iconAlt":"custom icon inloud",
+    "link":"https://github.com/jmalovera10/Inloud",
+    "year":2017,
+    "teamMembers":3,
+    "context":"Started as a startup idea.",
+    "emphasis":"We wanted to make a digital invoice application. We used it as an excuse to learn android development and never took it further due to an unviable business model.",
+    "pictures":[
+      {"src":"/img/inloud1.jpeg", "alt":"android dashboard app"},{"src":"/img/inloud2.jpeg", "alt":"android dashboard app"},{"src":"/img/inloud3.jpeg", "alt":"android dashboard app"}
+    ],
+    "duration": "2 months"
+  },
+  {
+    "name":"multiobjectiveOptimization",
+    "architecture":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
+    "smallDescription":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
+    "iconSrc":"/img/mos.png",
+    "iconAlt":"comparsion plot",
+    "link":"https://github.com/tf-venegas10/proyectoMOS",
+    "year":2017,
+    "teamMembers":2,
+    "context":"Modeling, simulation and optimization (undergraduate class)",
+    "emphasis":"Learning how to use optimization solvers and how to make genetic algorithms for multiobjective optimization processes.",
+    "pictures":[
+
+    ],
+    "duration": "1 month"
+  }
+]
