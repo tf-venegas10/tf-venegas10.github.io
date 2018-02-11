@@ -51,7 +51,7 @@
     "name":"multiobjectiveOptimization",
     "architecture":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
     "smallDescription":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
-    "iconSrc":"/img/mos.png",
+    "iconSrc":"/img/mos.PNG",
     "iconAlt":"comparsion plot",
     "link":"https://github.com/tf-venegas10/proyectoMOS",
     "year":2017,
