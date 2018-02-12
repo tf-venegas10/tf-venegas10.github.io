@@ -36,13 +36,13 @@ img{
 
 footer{
     background-color: rgba(255,255,255,1);
-    padding:0px;
+    padding:0;
     font-size:50%;
 
 }
 
 footer div, footer p{
-    margin: 0px;
+    margin: 0;
 }
 
 .jumbo{
@@ -50,7 +50,7 @@ footer div, footer p{
     display:block;
     height: 100%;
     width: 100%;
-    margin: 0px;
+    margin: 0;
     padding:4%;
 
 }
@@ -60,6 +60,7 @@ footer div, footer p{
 #begin{
     padding: 9%;
     background-image: url("../img/mickey-o-neil-40129.jpg");
+    color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -68,11 +69,9 @@ footer div, footer p{
 }
 
 #begin a{
-    color: rgb(255,255,255);
+    color:black;
 }
-#begin h2{
-    color:white;
-}
+
 
 #interests, #projects, #languages{
     background-color:rgba(255,255,255,1);
@@ -108,7 +107,7 @@ footer div, footer p{
 }
 
 .contactInfo p{
-    margin:0px;
+    margin: 0;
     text-decoration: underline;
     font-size: large;
 }
