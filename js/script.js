@@ -5,9 +5,7 @@
 
 //Add wow animations
 $(document).ready(function () {
-
     new WOW().init();
-
 });
 
 //JQuery hobbies
@@ -46,7 +44,10 @@ function callBackInterests(data) {
             .attr("alt", d.alt)
             .attr("src", d.img);
         var title = $("<h5 class='col-sm-6'>")
-            .text(d.nombre);
+            .append($("<div>")
+                .text(d.nombre.split(" ")[0]))
+            .append(($("<div>"))
+                .text(d.nombre.split(" ")[1]));
         var interest = $("<div class='interest col-sm-6 wow flipInY'>")
             .append($("<div class='row'>")
                 .append("<div class='col-sm-2'>")

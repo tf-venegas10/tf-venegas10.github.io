@@ -128,3 +128,12 @@ footer div, footer p{
 .timeline-panel{
     background-color:rgba(255,255,255,0.95);
 }
+.aboutMeRow{
+    text-align: justify;
+    text-justify: auto;
+}
+
+.timeline-panel{
+    text-align: justify;
+    text-justify: auto;
+}
