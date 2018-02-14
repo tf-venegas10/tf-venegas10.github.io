@@ -157,7 +157,7 @@ footer div, footer p{
 
 @media all and (max-width: 600px){
     body, p {
-        font-size: 70%;
+        font-size: 80%;
     }
     h4,h5{
         font-size: 100%;
