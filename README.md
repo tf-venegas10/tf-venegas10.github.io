@@ -1,6 +1,7 @@
 # tf-venegas10.github.io
 This page is an interactive way to see my resume.
 It contains my academical interests, skills and projects.
+
 It was done using:
 * HTML5 and CSS
 * Bootstrap
