@@ -1,5 +1,4 @@
 /*global $ document console WOW*/
-
 "use strict";
 
 
@@ -39,7 +38,8 @@ function callBackInterests(data) {
     var interests = $(".interestsRow > div:nth-child(2)");
     data.forEach(function (d) {
         //add picture
-        var foto = $("<img class= \"col-sm-8 icon\" />")
+        var foto;
+        foto = $("<img src='' class= \"col-sm-8 icon\" />")
             .attr("alt", d.alt)
             .attr("src", d.img);
         //add title
@@ -132,9 +132,22 @@ $.getJSON("JSON/hobbies.json", callBackHobbies);
 $.getJSON("JSON/interests.json", callBackInterests);
 $.getJSON("JSON/projects.json", callbackProjects);
 
+//This function replaces the marker on the nav bar that tells the user its location
+function replaceActual (){
+    var wannabe=$("a.active");
+    console.log(wannabe);
+    $("#actual").text(wannabe.text());
+}
 
-//small script to close menu bar when one item is clicked
+//small script to close menu bar when one item is clicked it also replaces actual marker
 // language=JQuery-CSS
 $(".nav-link").on("click", function () {
-        $(".navbar-toggler").click();
+    $(".navbar-toggler").click();
+    setTimeout(replaceActual, 100);
+});
+
+//this create an event listener for every time we scroll to fix the location marker
+//this uses the nav-bar that automatically adapts when changed
+$(window).on("scroll", function(){
+    replaceActual();
 });

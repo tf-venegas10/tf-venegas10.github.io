@@ -1,4 +1,4 @@
-#begin{
+#Contact-Information{
     padding: 9%;
     background-image: url("../img/mickey-o-neil-40129.jpg");
     color: black;
@@ -69,18 +69,18 @@ footer div, footer p{
 }
 
 
-#begin a{
+#Contact-Information a{
     color:black;
 }
 
 
-#interests, #projects, #languages{
+#About-Me, #projects, #languages{
     background-color:rgba(255,255,255,1);
 
 }
 
 
-#achievements,#hobbies,#path{
+#achievements,#hobbies,#Carreer-Path{
     background-color:rgba(58, 110, 164,0.97);
 
 }
