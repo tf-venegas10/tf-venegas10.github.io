@@ -20,7 +20,7 @@ function callBackHobbies(data) {
         var title = $("<h5 class='col-8'>")
             .text(d.nombre);
         //consolidate hobbie
-        var hobbie = $("<div class='interest col-6 col-sm-3 wow flipInY'>")
+        var hobbie = $("<div class='hobie col-6 col-sm-3 wow flipInY'>")
             .append($("<div class='row'>")
                 .append("<div class='col-2'>")
                 .append(foto)
@@ -49,7 +49,7 @@ function callBackInterests(data) {
             .append(($("<div>"))
                 .text(d.nombre.split(" ")[1]));
         //consolidate interest
-        var interest = $("<div class='interest col-12 col-sm-6 wow flipInY'>")
+        var interest = $("<div class='interest col-12 col-md-6 wow flipInY'>")
             .append($("<div class='row'>")
                 .append("<div class='col-2'>")
                 .append(foto)
