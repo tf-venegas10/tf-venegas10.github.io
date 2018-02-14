@@ -123,13 +123,13 @@ function callbackProjects(data) {
                     .attr("src", d.iconSrc)
                     .attr("alt", d.iconAlt))
                 .append($("<div class=\"carousel-caption\">")
+                    .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
+                        .attr("data-target", "#" + d.name)
+                        .text("Learn More"))
                     .append($("<h3 class='carousel-titles'>")
                         .text(name))
                     .append($("<p class='carousel-descriptions'>")
-                    .text(d.smallDescription))
-                    .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
-                    .attr("data-target", "#" + d.name)
-                    .text("Learn More"))));
+                        .text(d.smallDescription))));
         items += 1;
     });
 }

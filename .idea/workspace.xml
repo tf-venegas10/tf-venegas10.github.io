@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b1b22f-6c8a-4056-afe0-bbc91a053bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,11 +33,11 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="728">
+              <caret line="134" column="1" lean-forward="true" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+                <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
               </folding>
             </state>
           </provider>
@@ -265,12 +264,12 @@
       <workItem from="1518304914902" duration="5764000" />
       <workItem from="1518382770219" duration="983000" />
       <workItem from="1518446528675" duration="873000" />
-      <workItem from="1518464685736" duration="13439000" />
+      <workItem from="1518464685736" duration="14081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107093000" />
+    <option name="totallyTimeSpent" value="107735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -331,7 +330,7 @@
           <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+            <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -450,7 +449,7 @@
           <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+            <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -521,7 +520,7 @@
           <caret line="109" column="86" lean-forward="false" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+            <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -576,7 +575,7 @@
           <caret line="72" column="20" lean-forward="false" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+            <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -744,11 +743,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        <state relative-caret-position="728">
+          <caret line="134" column="1" lean-forward="true" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+            <marker date="1518647101598" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
