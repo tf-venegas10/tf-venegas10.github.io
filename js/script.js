@@ -75,6 +75,12 @@ function callbackProjects(data) {
                     .attr("alt",p.alt));
             }
         );
+        //name to show
+        var namePieces = d.name.split("-");
+        var name = "";
+        namePieces.forEach(function(p){
+            name += " " + p;
+        });
         //consolidate modal
         var modal=$("<div class=\"modal fade\" >")
             .attr("id",d.name)
@@ -82,7 +88,7 @@ function callbackProjects(data) {
                 .append($("<div class=\"modal-content\">")
                     .append($("<div class=\"modal-header\">")
                         .append($("<h4 class=\"modal-title\">")
-                            .text(d.name))
+                            .text(name))
                         .append($("<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>")))
                     .append($("<div class=\"modal-body\">")
                         .append($("<ul  class=\"list-group\">")
@@ -118,7 +124,7 @@ function callbackProjects(data) {
                     .attr("alt", d.iconAlt))
                 .append($("<div class=\"carousel-caption\">")
                     .append($("<h3 class='carousel-titles'>")
-                        .text(d.name))
+                        .text(name))
                     .append($("<p class='carousel-descriptions'>")
                     .text(d.smallDescription))
                     .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")

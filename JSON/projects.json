@@ -48,7 +48,7 @@
     "duration": "2 months"
   },
   {
-    "name":"multiobjectiveOptimization",
+    "name":"Multi-Objective-Optimization",
     "architecture":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
     "smallDescription":"Used a genetic algorithm as an heuristic approach to solve a multiobjective optimization problem.",
     "iconSrc":"/img/mos.PNG",
