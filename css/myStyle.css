@@ -188,7 +188,7 @@ footer div, footer p{
     h2{
         font-size: 150%;
     }
-    
+
 }
 
 /* for small devices */
@@ -211,8 +211,8 @@ footer div, footer p{
         min-width: 250px;
     }
     .timeline-badge{
-        max-width: 0px;
-        max-height: 0px;
+        max-width: 0;
+        max-height: 0;
     }
     .navbar-brand{
         font-size:100%;
