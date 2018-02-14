@@ -146,14 +146,42 @@ footer div, footer p{
 }
 
 
-@media (max-width: 768px) {
-    .carousel .carousel-inner .item {
-        min-height: 1500px;
-    }
-}
+
 
 .carousel-titles, .carousel-descriptions {
     color: blue;
     background-color: rgba(255,255,255,0.65);
 }
 
+/* for small devices */
+
+@media all and (max-width: 600px){
+    body, p {
+        font-size: 70%;
+    }
+    h4,h5{
+        font-size: 100%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    div.carousel-item > img{
+        min-height: 200px;
+    }
+    .timeline-panel{
+        font-size:120%;
+        min-width: 250px;
+    }
+    .timeline-badge{
+        max-width: 0px;
+        max-height: 0px;
+    }
+    .navbar-brand{
+        font-size:100%;
+    }
+    ul.list-group:nth-child(2) > li:nth-child(3) > img:nth-child(1){
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+}

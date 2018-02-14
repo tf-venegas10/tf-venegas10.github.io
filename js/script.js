@@ -13,22 +13,22 @@ function callBackHobbies(data) {
     var hobbies = $("#hobbies > div:nth-child(2)");
     data.forEach(function (d) {
         //add picture to hobbie
-        var foto = $("<img class= \"col-sm-6 icon  rounded-circle\" />")
+        var foto = $("<img class= \"col-8 icon  rounded-circle\" />")
             .attr("alt", d.alt)
             .attr("src", d.img);
         //add title
-        var title = $("<h5 class='col-sm-6'>")
+        var title = $("<h5 class='col-8'>")
             .text(d.nombre);
         //consolidate hobbie
-        var hobbie = $("<div class='interest col-sm-3 wow flipInY'>")
+        var hobbie = $("<div class='interest col-6 col-sm-3 wow flipInY'>")
             .append($("<div class='row'>")
-                .append("<div class='col-sm-3'>")
+                .append("<div class='col-2'>")
                 .append(foto)
-                .append("<div class='col-sm-3'>"))
+                .append("<div class='col-2'>"))
             .append($("<div class='row'>")
-                .append("<div class='col-sm-3'>")
+                .append("<div class='col-2'>")
                 .append(title)
-                .append("<div class='col-sm-3'>"));
+                .append("<div class='col-2'>"));
         hobbies.append(hobbie);
     });
 }
@@ -39,25 +39,25 @@ function callBackInterests(data) {
     data.forEach(function (d) {
         //add picture
         var foto;
-        foto = $("<img src='' class= \"col-sm-8 icon\" />")
+        foto = $("<img src='' class= \"col-8 icon\" />")
             .attr("alt", d.alt)
             .attr("src", d.img);
         //add title
-        var title = $("<h5 class='col-sm-6'>")
+        var title = $("<h5 class='col-8'>")
             .append($("<div>")
                 .text(d.nombre.split(" ")[0]))
             .append(($("<div>"))
                 .text(d.nombre.split(" ")[1]));
         //consolidate interest
-        var interest = $("<div class='interest col-sm-6 wow flipInY'>")
+        var interest = $("<div class='interest col-12 col-sm-6 wow flipInY'>")
             .append($("<div class='row'>")
-                .append("<div class='col-sm-2'>")
+                .append("<div class='col-2'>")
                 .append(foto)
-                .append("<div class='col-sm-2'>"))
+                .append("<div class='col-2'>"))
             .append($("<div class='row'>")
-                .append("<div class='col-sm-3'>")
+                .append("<div class='col-2'>")
                 .append(title)
-                .append("<div class='col-sm-3'>"));
+                .append("<div class='col-2'>"));
         interests.append(interest);
     });
 }
@@ -70,7 +70,7 @@ function callbackProjects(data) {
         var pics = $("<div class='row'>");
         d.pictures.forEach(
             function (p) {
-                pics.append($("<img src='' class='col-sm-6 image-carousel'>")
+                pics.append($("<img src='' class='col-12 col-sm-6 image-carousel'>")
                     .attr("src", p.src)
                     .attr("alt",p.alt));
             }
@@ -119,7 +119,7 @@ function callbackProjects(data) {
         //Adding items to carousel
         $(".carousel-inner")
             .append($("<div class='carousel-item " + (items === 0? "active" : "") + "'>")
-                .append($("<img>")
+                .append($("<img src=''>")
                     .attr("src", d.iconSrc)
                     .attr("alt", d.iconAlt))
                 .append($("<div class=\"carousel-caption\">")
