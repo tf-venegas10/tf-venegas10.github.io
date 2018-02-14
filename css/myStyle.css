@@ -138,6 +138,10 @@ footer div, footer p{
     text-justify: auto;
 }
 
+.timeline-heading{
+    text-align: center;
+}
+
 .carousel-caption {
     top: 40%;
     bottom: auto;
