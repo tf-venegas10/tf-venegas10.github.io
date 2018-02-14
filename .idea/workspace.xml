@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8b1b22f-6c8a-4056-afe0-bbc91a053bb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JSON/projects.json" afterPath="$PROJECT_DIR$/JSON/projects.json" />
-      <change beforePath="$PROJECT_DIR$/correo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/myStyle.css" afterPath="$PROJECT_DIR$/css/myStyle.css" />
       <change beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change beforePath="$PROJECT_DIR$/wapp.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,14 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
+                <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
               </folding>
             </state>
           </provider>
@@ -58,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/myStyle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="150" column="27" lean-forward="true" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+              <caret line="150" column="27" lean-forward="false" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -102,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/JSON/interests.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -132,8 +128,8 @@
       <find>abou</find>
       <find>begin</find>
       <find>path</find>
-      <find>row</find>
       <find>interests</find>
+      <find>row</find>
     </findStrings>
     <replaceStrings>
       <replace>jumbo</replace>
@@ -163,8 +159,8 @@
         <option value="$PROJECT_DIR$/JSON/interests.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/JSON/projects.json" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/myStyle.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -210,21 +206,6 @@
             <path>
               <item name="MyPage" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-              <item name="JSON" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,17 +265,18 @@
       <workItem from="1518304914902" duration="5764000" />
       <workItem from="1518382770219" duration="983000" />
       <workItem from="1518446528675" duration="873000" />
-      <workItem from="1518464685736" duration="11179000" />
+      <workItem from="1518464685736" duration="13439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104833000" />
+    <option name="totallyTimeSpent" value="107093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -343,25 +325,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3425">
-          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3050">
           <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
+            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -480,7 +450,7 @@
           <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
+            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -551,7 +521,7 @@
           <caret line="109" column="86" lean-forward="false" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
+            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -606,7 +576,7 @@
           <caret line="72" column="20" lean-forward="false" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
+            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
           </folding>
         </state>
       </provider>
@@ -722,7 +692,7 @@
     <entry file="file://$PROJECT_DIR$/JSON/interests.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -747,22 +717,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1518642004253" expanded="true" signature="3248:3255" ph="×" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="150" column="27" lean-forward="true" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+          <caret line="150" column="27" lean-forward="false" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/veneg/WebstormProjects/MyPage/js/script.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/js/script.js</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="837.0" y="551.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1518646344057" expanded="true" signature="3264:3271" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>

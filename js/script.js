@@ -13,7 +13,7 @@ function callBackHobbies(data) {
     var hobbies = $("#hobbies > div:nth-child(2)");
     data.forEach(function (d) {
         //add picture to hobbie
-        var foto = $("<img class= \"col-sm-6 icon\" />")
+        var foto = $("<img class= \"col-sm-6 icon  rounded-circle\" />")
             .attr("alt", d.alt)
             .attr("src", d.img);
         //add title
@@ -151,6 +151,12 @@ $(".nav-link").on("click", function () {
     $(".navbar-toggler").click();
     setTimeout(replaceActual, 100);
 });
+
+//this will change the actual marker when the home link is clicked
+$(".navbar-brand").on("click", function () {
+    setTimeout(replaceActual, 100);
+});
+
 
 //this create an event listener for every time we scroll to fix the location marker
 //this uses the nav-bar that automatically adapts when changed
