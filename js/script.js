@@ -70,7 +70,7 @@ function callbackProjects(data) {
         var pics = $("<div class='row'>");
         d.pictures.forEach(
             function (p) {
-                pics.append($("<img class='col-sm-6'>")
+                pics.append($("<img src='' class='col-sm-6 image-carousel'>")
                     .attr("src", p.src)
                     .attr("alt",p.alt));
             }
@@ -117,13 +117,13 @@ function callbackProjects(data) {
                     .attr("src", d.iconSrc)
                     .attr("alt", d.iconAlt))
                 .append($("<div class=\"carousel-caption\">")
-                    .append($("<h3>")
+                    .append($("<h3 class='carousel-titles'>")
                         .text(d.name))
-                    .append($("<p>"))
+                    .append($("<p class='carousel-descriptions'>")
                     .text(d.smallDescription))
-                .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
+                    .append($("<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" >")
                     .attr("data-target", "#" + d.name)
-                    .text("Learn More")));
+                    .text("Learn More"))));
         items += 1;
     });
 }

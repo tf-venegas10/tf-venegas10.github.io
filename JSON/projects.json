@@ -2,7 +2,7 @@
   {
     "name":"Colmines",
     "architecture":"Complex architectural design for every component. The overall project works like a pipeline with redundancy. ",
-    "smallDescription":"IoT Architectural design plus development project. With consideration of non-functional requirements and integration of different software and hardware. ",
+    "smallDescription":"IoT Architectural design and development project. With consideration of non-functional requirements and integration of different software and hardware. ",
     "iconSrc":"/img/miners.png",
     "iconAlt":"Miners hat",
     "link":"https://github.com/ISIS2503/Grupo6",
