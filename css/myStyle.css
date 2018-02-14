@@ -1,3 +1,13 @@
+#begin{
+    padding: 9%;
+    background-image: url("../img/mickey-o-neil-40129.jpg");
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+
+}
 nav, nav a{
     color: rgb(55,55,55)
 }
@@ -57,16 +67,7 @@ footer div, footer p{
 #hobbies{
     padding:1%;
 }
-#begin{
-    padding: 9%;
-    background-image: url("../img/mickey-o-neil-40129.jpg");
-    color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 
-
-}
 
 #begin a{
     color:black;
