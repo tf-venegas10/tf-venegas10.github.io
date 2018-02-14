@@ -1,12 +1,12 @@
 [
   {
     "nombre": "Web Development",
-    "img" : "/img/webDev.jpeg",
+    "img" : "/img/webDev.png",
     "alt": "mug"
   },
   {
     "nombre": "Software Architecture",
-    "img" : "/img/architecture.jpeg",
+    "img" : "/img/architecture.png",
     "alt": "architect"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "nombre": "Quantum Physics",
-    "img" : "/img/atom.jpeg",
+    "img" : "/img/quantum.png",
     "alt": "atom"
   }
 ]
