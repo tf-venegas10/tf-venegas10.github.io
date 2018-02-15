@@ -16,3 +16,7 @@ It has different directories:
   * svg/ contains icons from Iconic
   
 You can see the resulting web site [here](https://tf-venegas10.github.io/).
+
+This is a project done for the class of [Web Development](http://johnguerra.co/classes/webDevelopment_spring_2018/) of the University of Los Andes.
+
+Author: Tomas F. Venegas Bernal
