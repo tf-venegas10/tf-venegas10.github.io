@@ -1,3 +1,4 @@
+/* by id*/
 #Contact-Information{
     padding: 9%;
     background-image: url("../img/mickey-o-neil-40129.jpg");
@@ -8,15 +9,32 @@
 
 
 }
+#hobbies{
+    padding:1%;
+}
+
+
+#Contact-Information a{
+    color:black;
+}
+
+
+#About-Me, #projects, #languages{
+    background-color:rgba(255,255,255,1);
+
+}
+
+
+#achievements,#hobbies,#Carreer-Path{
+    background-color:rgba(58, 110, 164,0.97);
+
+}
+
+/*by type*/
 nav, nav a{
     color: rgb(55,55,55)
 }
 
-.allDivs{
-    width: 100%;
-    padding:0px;
-    margin: 0px;
-}
 
 body{
     background-clip:content-box;
@@ -55,6 +73,14 @@ footer div, footer p{
     margin: 0;
 }
 
+
+/*By class*/
+.allDivs{
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+}
+
 .jumbo{
 
     display:block;
@@ -64,26 +90,7 @@ footer div, footer p{
     padding:4%;
 
 }
-#hobbies{
-    padding:1%;
-}
 
-
-#Contact-Information a{
-    color:black;
-}
-
-
-#About-Me, #projects, #languages{
-    background-color:rgba(255,255,255,1);
-
-}
-
-
-#achievements,#hobbies,#Carreer-Path{
-    background-color:rgba(58, 110, 164,0.97);
-
-}
 .carousel{
     width: 100%;
     height:100%;
@@ -91,10 +98,6 @@ footer div, footer p{
 
 }
 
-#projectsCarousel > div > div >img{
-    width: 50%;
-    height:50%;
-}
 
 .language{
     padding:3%;
@@ -115,10 +118,6 @@ footer div, footer p{
 .aboutMeRow{
     border-left:1px dotted black;
     font-size: 120%;
-}
-
-#interest h2{
-    margin:2%;
 }
 
 .interestsRow{
@@ -150,11 +149,21 @@ footer div, footer p{
 }
 
 
-
-
 .carousel-titles, .carousel-descriptions {
     color: blue;
     background-color: rgba(255,255,255,0.65);
+}
+
+/*More precision*/
+
+#interest h2{
+    margin:2%;
+}
+
+
+#projectsCarousel > div > div >img{
+    width: 50%;
+    height:50%;
 }
 
 /*for big-small devices*/
