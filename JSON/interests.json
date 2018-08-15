@@ -1,8 +1,8 @@
 [
   {
-    "nombre": "Web Development",
+    "nombre": "Full Stack Development",
     "img" : "/img/webDev.png",
-    "alt": "mug"
+    "alt": "developer's mug"
   },
   {
     "nombre": "Software Architecture",
@@ -10,13 +10,13 @@
     "alt": "architect"
   },
   {
-    "nombre": "Artificial Intelligence",
+    "nombre": "Machine Learning",
     "img" : "/img/AI.png",
-    "alt": "brain"
+    "alt": "brain technology"
   },
   {
-    "nombre": "Quantum Physics",
-    "img" : "/img/quantum.png",
-    "alt": "atom"
+    "nombre": "Design Thinking",
+    "img" : "/img/head.png",
+    "alt": "inspired head"
   }
 ]

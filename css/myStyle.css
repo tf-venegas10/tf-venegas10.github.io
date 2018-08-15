@@ -43,8 +43,8 @@ body{
     background-attachment: fixed;
     font-family: 'Quicksand', serif;
     color: rgb(55,55,55);
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding:0;
     background-color: rgb(55,55,55);
 
 }
@@ -77,8 +77,8 @@ footer div, footer p{
 /*By class*/
 .allDivs{
     width: 100%;
-    padding:0px;
-    margin: 0px;
+    padding:0;
+    margin: 0;
 }
 
 .jumbo{

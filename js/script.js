@@ -1,5 +1,5 @@
 /*global $ document console WOW*/
-"use strict";
+    "use strict";
 
 
 //Add wow animations
