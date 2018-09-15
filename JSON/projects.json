@@ -17,9 +17,9 @@
   },
   {
     "name":"Toss-App",
-    "architecture":"Meteor+REACT+Boostrap",
+    "architecture":"Meteor+REACT+Boostrap+MaterialUI",
     "smallDescription":"Simple toss-ups in real time. Look at the wheel spin at the same time from different devices. Personalize your toss-ups.",
-    "iconSrc":"/img/front-Page.PNG",
+    "iconSrc":"/img/toss-app-inicio.PNG",
     "iconAlt":"Toss-app front page",
     "link":"https://toss-app.herokuapp.com",
     "year":2018,
@@ -27,8 +27,8 @@
     "context":"Web development (undergraduate class)",
     "emphasis":"Real time reactivity for all users connected.",
     "pictures":[
-      {"src":"/img/toss-app-inicio.PNG", "alt":"página de incio"}, {"src":"/img/resultados-persona.PNG", "alt":"pagina de resultados sorteo personas"},
-      {"src":"/img/resultados-match.PNG", "alt":"pagina de resultados sorteo de matching"}
+      {"src":"/img/front-Page.PNG", "alt":"Initial page"}, {"src":"/img/resultados-persona.PNG", "alt":"results page tossup people"},
+      {"src":"/img/resultados-match.PNG", "alt":"results page tossup matching"}
     ],
     "duration": "6 weeks"
   },
@@ -47,6 +47,22 @@
       {"src":"/img/inloud1.jpeg", "alt":"android dashboard app"},{"src":"/img/inloud2.jpeg", "alt":"android dashboard app"},{"src":"/img/inloud3.jpeg", "alt":"android dashboard app"}
     ],
     "duration": "2 months"
+  },
+  {
+    "name":"Emotioner",
+    "architecture":"Meteor+REACT+Boostrap+MaterialUI+ D3+ toneAnlyser API+ Google translate and speech-to-text API",
+    "smallDescription":"Input text or speech and keep track of your emotions every day. Visualize them and get suggestions accordingly.",
+    "iconSrc":"/img/emotioner-front.PNG",
+    "iconAlt":"emotioner front page",
+    "link":"https://emotioner.herokuapp.com",
+    "year":2018,
+    "teamMembers":2,
+    "context":"Web development (undergraduate class)",
+    "emphasis":"D3 visualizations. API usage. Help people.",
+    "pictures":[
+      {"src":"/img/emotioner-visual.PNG", "alt":"visualization page"}
+    ],
+    "duration": "3 weeks"
   },
   {
     "name":"Multi-Objective-Optimization",
