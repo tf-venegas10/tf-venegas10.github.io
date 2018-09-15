@@ -16,20 +16,21 @@
     "duration": "4 months"
   },
   {
-    "name":"Click",
-    "architecture":"JAX-RX+JEE+Angular+Boostrap",
-    "smallDescription":"Back and Front end development of a simple hiking web page using JAX-RX",
-    "iconSrc":"/img/paseos.jpg",
-    "iconAlt":"Organized trips",
-    "link":"https://github.com/Uniandes-ISIS2603-backup/201710-paseos_01/wiki",
-    "year":2017,
-    "teamMembers":5,
-    "context":"Software development in teams (undergraduate class)",
-    "emphasis":"Methodology for efficient team work. Discovering web technologies.",
+    "name":"Toss-App",
+    "architecture":"Meteor+REACT+Boostrap",
+    "smallDescription":"Simple toss-ups in real time. Look at the wheel spin at the same time from different devices. Personalize your toss-ups.",
+    "iconSrc":"/img/front-Page.PNG",
+    "iconAlt":"Toss-app front page",
+    "link":"https://toss-app.herokuapp.com",
+    "year":2018,
+    "teamMembers":2,
+    "context":"Web development (undergraduate class)",
+    "emphasis":"Real time reactivity for all users connected.",
     "pictures":[
-
+      {"src":"/img/toss-app-inicio.PNG", "alt":"página de incio"}, {"src":"/img/resultados-persona.PNG", "alt":"pagina de resultados sorteo personas"},
+      {"src":"/img/resultados-match.PNG", "alt":"pagina de resultados sorteo de matching"}
     ],
-    "duration": "4 months"
+    "duration": "6 weeks"
   },
   {
     "name":"Inloud",
